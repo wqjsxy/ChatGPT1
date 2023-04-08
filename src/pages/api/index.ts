@@ -114,7 +114,7 @@ export const post: APIRoute = async context => {
           "Content-Type": "application/json",
           Authorization: `Bearer ${apiKey}`
         },
-        timeout: 15000,
+        timeout: 20000,
         method: "POST",
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
